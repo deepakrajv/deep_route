@@ -1,0 +1,17 @@
+name: example
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  deep_route:
+    path: ../
+
+flutter:
+  uses-material-design: true
