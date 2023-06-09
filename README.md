@@ -3,7 +3,7 @@
 
 It’s a Flutter navigation package, it requires a minimal amount of code to generate everything
 needed for navigation inside of your App. It has the advantage of not needing context, 
-so you can call from your business logic.
+so you can navigate from your business logic also.
 
 ## Installing
 Add DeepRoute to your pubspec.yaml file:
