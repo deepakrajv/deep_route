@@ -1,5 +1,5 @@
 
-#### What is AutoRoute?
+#### What is DeepRoute?
 
 It’s a Flutter navigation package, it requires a minimal amount of code to generate everything
 needed for navigation inside of your App.
