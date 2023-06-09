@@ -1,6 +1,6 @@
 name: deep_route
 description: A new Flutter package for navigation and routing with minimal amount of code to navigate even from the business logic, even without a context
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/deepakrajv/deep_route
 
 environment:
