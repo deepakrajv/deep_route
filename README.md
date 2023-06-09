@@ -2,14 +2,15 @@
 #### What is DeepRoute?
 
 It’s a Flutter navigation package, it requires a minimal amount of code to generate everything
-needed for navigation inside of your App.
+needed for navigation inside of your App. It has the advantage of not needing context, 
+so you can call from your business logic.
 
 ## Installing
 Add DeepRoute to your pubspec.yaml file:
 
 ```dart
 dependencies:
-deep_route:
+  deep_route:
 ```
 Import DeepRoute in files that it will be used:
 ```dart
@@ -28,6 +29,7 @@ void main() => runApp(DeepMaterialApp(home: Home()));
 Step 2: Use DeepRoute for navigation like
 ```dart
 DeepRouter.toNamed('/RouteName', arguments: 'sample');
+DeepRouter.to(NextPage());
 ```
 
 ## Additional information
