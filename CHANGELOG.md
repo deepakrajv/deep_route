@@ -1,3 +1,11 @@
+## 0.0.3
+
+* Paged Routes added.
+
+## 0.0.2
+
+* Issue Fixes.
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Basic Routes added.
