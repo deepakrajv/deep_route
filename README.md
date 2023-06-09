@@ -28,8 +28,8 @@ void main() => runApp(DeepMaterialApp(home: Home()));
 ```
 Step 2: Use DeepRoute for navigation like
 ```dart
-DeepRouter.toNamed('/RouteName', arguments: 'sample');
-DeepRouter.to(NextPage());
+DeepRoute.toNamed('/RouteName', arguments: 'sample');
+DeepRoute.to(NextPage());
 ```
 
 ## Additional information

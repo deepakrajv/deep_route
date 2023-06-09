@@ -1,3 +1,8 @@
+## 0.0.5
+
+* ReadMe updated.
+* Minor issue fixes.
+
 ## 0.0.4
 
 * Sample code added.
