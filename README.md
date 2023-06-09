@@ -4,26 +4,32 @@
 It’s a Flutter navigation package, it requires a minimal amount of code to generate everything
 needed for navigation inside of your App.
 
-## Features
+## Installing
+Add DeepRoute to your pubspec.yaml file:
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+dependencies:
+deep_route:
+```
+Import DeepRoute in files that it will be used:
+```dart
+import 'package:deep_route/deep_route.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+For sample code look in `/example` folder.
+
+Step 1: Add "DeepMaterialApp" before your MaterialApp, use DeepMaterialApp instead of MaterialApp
 
 ```dart
-const like = 'sample';
+void main() => runApp(DeepMaterialApp(home: Home()));
+```
+Step 2: Use DeepRoute for navigation like
+```dart
+DeepRouter.toNamed('/RouteName', arguments: 'sample');
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+This package is in its early development stage.

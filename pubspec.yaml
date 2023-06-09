@@ -1,7 +1,7 @@
 name: deep_route
 description: A new Flutter package for navigation and routing.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/deepakrajv/deep_route
 
 environment:
   sdk: '>=3.0.1 <4.0.0'
